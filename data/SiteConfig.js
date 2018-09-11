@@ -7,18 +7,18 @@ module.exports = {
   siteLogo:
     "https://haysclark.github.io/gatsby-starter-casper/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://thegreatkingbear.github.io", // Domain of your website without pathPrefix.
-  pathPrefix: "/gatsby-starter-casper", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
+  pathPrefix: "/gatsby-casper-blog", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
     "Mainly tech blog, but small insights sometimes", // Website description used for RSS feeds/meta description tag.
   siteCover:
     "https://picsum.photos/1920/1200?image=1041", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
-  siteNavigation: true, // If navigation is enabled the Menu button will be visible
+  siteNavigation: false, // If navigation is enabled the Menu button will be visible
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssAuthor: "Casper User", // The author name used in the RSS file
   // siteFBAppID: "1825356251115265", // optional, sets the FB Application ID for using app insights
   sitePaginationLimit: 10, // The max number of posts per page.
   googleAnalyticsID: "UA-111982167-1", // GA tracking ID.
-  // disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // enables Disqus comments, visually deviates from original Casper theme.
+  disqusShortname: "thegreatkingbearblog", // enables Disqus comments, visually deviates from original Casper theme.
   siteSocialUrls: [
     "https://github.com/thegreatkingbear/",
     "https://www.facebook.com/mookyung.kwak.9",
