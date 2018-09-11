@@ -9,9 +9,9 @@ module.exports = {
   siteUrl: "https://thegreatkingbear.github.io", // Domain of your website without pathPrefix.
   pathPrefix: "/gatsby-starter-casper", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
-    "A Casper themed GatsbyJS stater based on the Advanced Starter.", // Website description used for RSS feeds/meta description tag.
+    "Mainly tech blog, but small insights sometimes", // Website description used for RSS feeds/meta description tag.
   siteCover:
-    "https://haysclark.github.io/gatsby-starter-casper/images/blog-cover.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
+    "https://picsum.photos/1920/1200?image=1041", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssAuthor: "Casper User", // The author name used in the RSS file
@@ -20,26 +20,26 @@ module.exports = {
   googleAnalyticsID: "UA-111982167-1", // GA tracking ID.
   // disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // enables Disqus comments, visually deviates from original Casper theme.
   siteSocialUrls: [
-    "https://github.com/haysclark/gatsby-starter-casper",
-    "https://twitter.com/gatsbyjs",
-    "mailto:gatsbyjs@example.com"
+    "https://github.com/thegreatkingbear/",
+    "https://www.facebook.com/mookyung.kwak.9",
+    "mailto:passion.proof@gmail.com"
   ],
   postDefaultCategoryID: "Tech", // Default category for posts.
   // Links to social profiles/projects you want to display in the navigation bar.
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/haysclark/gatsby-starter-casper",
+      url: "https://github.com/thegreatkingbear/",
       iconClassName: "fa fa-github" // Disabled, see Navigation.jsx
     },
     {
-      label: "Twitter",
-      url: "https://twitter.com/gatsbyjs",
-      iconClassName: "fa fa-twitter" // Disabled, see Navigation.jsx
+      label: "Facebook",
+      url: "https://www.facebook.com/mookyung.kwak.9",
+      iconClassName: "fa fa-facebook" // Disabled, see Navigation.jsx
     },
     {
       label: "Email",
-      url: "mailto:gatsbyjs@example.com",
+      url: "mailto:passion.proof@gmail.com",
       iconClassName: "fa fa-envelope" // Disabled, see Navigation.jsx
     }
   ],
