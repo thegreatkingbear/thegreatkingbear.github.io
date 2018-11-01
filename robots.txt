@@ -1,3 +1,5 @@
 User-agent: *
-Sitemap: http://localhost:2368/sitemap.xml
-Disallow: /ghost/
+Disallow: */tags/
+Disallow: */categories/
+
+sitemap: https://haysclark.github.io/gatsby-starter-casper/sitemap.xml
