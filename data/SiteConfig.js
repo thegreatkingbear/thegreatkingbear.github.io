@@ -5,13 +5,13 @@ module.exports = {
   siteTitle: "Idea Pot", // Site title.
   siteTitleAlt: "Idea Pot themed by tech", // Alternative site title for SEO.
   siteLogo:
-    "https://github.com/thegreatkingbear/gatsby-casper-blog/blob/master/static/logos/logo-1024.png?raw=true", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
+    "/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://thegreatkingbear.github.io", // Domain of your website without pathPrefix.
-  pathPrefix: "/gatsby-casper-blog", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
+  pathPrefix: "/",
   siteDescription:
     "Mainly tech blog, but small insights sometimes", // Website description used for RSS feeds/meta description tag.
   siteCover:
-    "https://picsum.photos/1920/1200?image=1041", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
+    "/images/blog_cover_image_1200.jpeg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: false, // If navigation is enabled the Menu button will be visible
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssAuthor: "Casper User", // The author name used in the RSS file
