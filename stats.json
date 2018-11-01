@@ -1,12 +1,12 @@
 {
   "assetsByChunkName": {
     "path---tags-tech": [
-      "path---tags-tech-cb58ef2e80da314c0d33.js",
-      "path---tags-tech-cb58ef2e80da314c0d33.js.map"
+      "path---tags-tech-51f2c1493880420418fe.js",
+      "path---tags-tech-51f2c1493880420418fe.js.map"
     ],
     "path---starting-a-tech-blog": [
-      "path---starting-a-tech-blog-8a424c62a5057d85d534.js",
-      "path---starting-a-tech-blog-8a424c62a5057d85d534.js.map"
+      "path---starting-a-tech-blog-5e4740dac2df5f8e2850.js",
+      "path---starting-a-tech-blog-5e4740dac2df5f8e2850.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -25,8 +25,8 @@
       "component---src-templates-category-jsx-3f9f38b2a16b22af9077.js.map"
     ],
     "path---index": [
-      "path---index-19c9d9209eb089ebd866.js",
-      "path---index-19c9d9209eb089ebd866.js.map"
+      "path---index-2706a285349894f7d962.js",
+      "path---index-2706a285349894f7d962.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-16dca089dee574aef9ce.js",
@@ -37,14 +37,14 @@
       "component---src-templates-author-jsx-d9dcb651194ebdae2ab7.js.map"
     ],
     "commons": [
-      "commons-8d215d43fc113eaa56e8.js",
+      "commons-f9d1117c0304aa3791a4.js",
       "build-js-styles.css",
-      "commons-8d215d43fc113eaa56e8.js.map",
+      "commons-f9d1117c0304aa3791a4.js.map",
       "build-js-styles.css.map"
     ],
     "path---categories-dev": [
-      "path---categories-dev-15f01ec82fd59dc31b5c.js",
-      "path---categories-dev-15f01ec82fd59dc31b5c.js.map"
+      "path---categories-dev-fd956129c4876a5d08e3.js",
+      "path---categories-dev-fd956129c4876a5d08e3.js.map"
     ],
     "path---author-the-great-king-bear": [
       "path---author-the-great-king-bear-a63af3e0875e6c000d8c.js",
@@ -55,8 +55,8 @@
       "component---src-templates-tag-jsx-20e23471da3d1e948797.js.map"
     ],
     "path---tags-web": [
-      "path---tags-web-acf2990f1e2363418b7d.js",
-      "path---tags-web-acf2990f1e2363418b7d.js.map"
+      "path---tags-web-5fe064016b0d9dbedb7e.js",
+      "path---tags-web-5fe064016b0d9dbedb7e.js.map"
     ],
     "component---src-templates-index-jsx": [
       "component---src-templates-index-jsx-c030c3e84aae5df244ae.js",
