@@ -1,24 +1,20 @@
 {
   "assetsByChunkName": {
     "path---tags-tech": [
-      "path---tags-tech-a01bccf7d76a191b6750.js",
-      "path---tags-tech-a01bccf7d76a191b6750.js.map"
+      "path---tags-tech-385bc6bf6e7861909c55.js",
+      "path---tags-tech-385bc6bf6e7861909c55.js.map"
     ],
     "path---starting-a-tech-blog": [
-      "path---starting-a-tech-blog-961c5ede5e0144b45768.js",
-      "path---starting-a-tech-blog-961c5ede5e0144b45768.js.map"
+      "path---starting-a-tech-blog-88534eb56c44885b1380.js",
+      "path---starting-a-tech-blog-88534eb56c44885b1380.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
-    "path---chop-app-개요": [
-      "path---chop-app-개요-1e273137bea76e0d2a50.js",
-      "path---chop-app-개요-1e273137bea76e0d2a50.js.map"
-    ],
     "path---tags-design": [
-      "path---tags-design-30a3567cb93cdfd3a707.js",
-      "path---tags-design-30a3567cb93cdfd3a707.js.map"
+      "path---tags-design-38b68514c6bc8bff43de.js",
+      "path---tags-design-38b68514c6bc8bff43de.js.map"
     ],
     "component---src-layouts-index-jsx": [
       "component---src-layouts-index-jsx-eca2dc2bd61225ea6683.js",
@@ -33,8 +29,8 @@
       "component---src-templates-category-jsx-3f9f38b2a16b22af9077.js.map"
     ],
     "path---index": [
-      "path---index-3cb25ce99e4197af18ab.js",
-      "path---index-3cb25ce99e4197af18ab.js.map"
+      "path---index-b842198f8ef7eecdb412.js",
+      "path---index-b842198f8ef7eecdb412.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-16dca089dee574aef9ce.js",
@@ -51,24 +47,24 @@
       "build-js-styles.css.map"
     ],
     "path---categories-dev": [
-      "path---categories-dev-abf609d9cf8be1b12e91.js",
-      "path---categories-dev-abf609d9cf8be1b12e91.js.map"
+      "path---categories-dev-d3e5464ae1acd853c110.js",
+      "path---categories-dev-d3e5464ae1acd853c110.js.map"
     ],
     "path---author-the-great-king-bear": [
-      "path---author-the-great-king-bear-07adb4e561a0dea47598.js",
-      "path---author-the-great-king-bear-07adb4e561a0dea47598.js.map"
+      "path---author-the-great-king-bear-05ab845dbc9fe5b01e36.js",
+      "path---author-the-great-king-bear-05ab845dbc9fe5b01e36.js.map"
     ],
     "component---src-templates-tag-jsx": [
       "component---src-templates-tag-jsx-20e23471da3d1e948797.js",
       "component---src-templates-tag-jsx-20e23471da3d1e948797.js.map"
     ],
     "path---tags-app": [
-      "path---tags-app-a8b72ae03200433dce33.js",
-      "path---tags-app-a8b72ae03200433dce33.js.map"
+      "path---tags-app-a51926b4236531e2b2b1.js",
+      "path---tags-app-a51926b4236531e2b2b1.js.map"
     ],
     "path---tags-web": [
-      "path---tags-web-b86c8d10114c32003eff.js",
-      "path---tags-web-b86c8d10114c32003eff.js.map"
+      "path---tags-web-b30977e3a77e6e46eef0.js",
+      "path---tags-web-b30977e3a77e6e46eef0.js.map"
     ],
     "component---src-templates-index-jsx": [
       "component---src-templates-index-jsx-c030c3e84aae5df244ae.js",
@@ -83,14 +79,18 @@
       "component---src-templates-post-jsx-b12f4e533f80565aa0a2.js.map"
     ],
     "app": [
-      "app-4a9102dea52d10fc0d67.js",
+      "app-80cdb912c89f328b329f.js",
       "build-js-styles.css",
-      "app-4a9102dea52d10fc0d67.js.map",
+      "app-80cdb912c89f328b329f.js.map",
       "build-js-styles.css.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
       "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---chop-app-design": [
+      "path---chop-app-design-de13cfd4bdde22487dc5.js",
+      "path---chop-app-design-de13cfd4bdde22487dc5.js.map"
     ]
   }
 }
