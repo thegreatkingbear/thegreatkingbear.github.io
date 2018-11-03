@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Idea Pot]]></title><description><![CDATA[Mainly tech blog, but small insights sometimes]]></description><link>https://thegreatkingbear.github.io</link><image><url>https://thegreatkingbear.github.io/logos/logo-512.png</url><title>Idea Pot</title><link>https://thegreatkingbear.github.io</link></image><generator>GatsbyJS Casper Starter</generator><lastBuildDate>Thu, 01 Nov 2018 03:31:08 GMT</lastBuildDate><atom:link href="https://thegreatkingbear.github.io/rss.xml" rel="self" type="application/rss+xml"/><author><![CDATA[Casper User]]></author><copyright><![CDATA[Gatsby Casper Starter © 2018]]></copyright><item><title><![CDATA[Starting a Tech Blog]]></title><description><![CDATA[앞으로 1년 정도의 시간 동안 web에 대한 기술 스택을 쌓고자 한다. 현재 기술 발전이 흘러가는 방향을 볼 때, 간단한 스타트업의 앱이나 서비스 정도는 web을 중심으로 하여 개발되고, 이것을 react native 등의 framework…]]></description><link>https://thegreatkingbear.github.io/starting-a-tech-blog</link><guid isPermaLink="false">https://thegreatkingbear.github.io/starting-a-tech-blog</guid><category><![CDATA[web]]></category><category><![CDATA[tech]]></category><dc:creator><![CDATA[Casper User]]></dc:creator><pubDate>Thu, 01 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;앞으로 1년 정도의 시간 동안 web에 대한 기술 스택을 쌓고자 한다. 현재 기술 발전이 흘러가는 방향을 볼 때, 간단한 스타트업의 앱이나 서비스 정도는 web을 중심으로 하여 개발되고, 이것을 react native 등의 framework를 이용해 안드로이드와 아이폰에 동시에 서비스하는 형태가 주류로 자리잡을 가능성이 크다고 본다. &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Idea Pot]]></title><description><![CDATA[Mainly tech blog, but small insights sometimes]]></description><link>https://thegreatkingbear.github.io</link><image><url>https://thegreatkingbear.github.io/logos/logo-512.png</url><title>Idea Pot</title><link>https://thegreatkingbear.github.io</link></image><generator>GatsbyJS Casper Starter</generator><lastBuildDate>Sat, 03 Nov 2018 03:53:57 GMT</lastBuildDate><atom:link href="https://thegreatkingbear.github.io/rss.xml" rel="self" type="application/rss+xml"/><author><![CDATA[Casper User]]></author><copyright><![CDATA[Gatsby Casper Starter © 2018]]></copyright><item><title><![CDATA[Chop App 개요]]></title><description><![CDATA[일단 목표는 간단한 할 일 앱(to do list)을 만드는 것이다. 할 일들(to-do)이 List…]]></description><link>https://thegreatkingbear.github.io/chop-app-개요</link><guid isPermaLink="false">https://thegreatkingbear.github.io/chop-app-개요</guid><category><![CDATA[web]]></category><category><![CDATA[tech]]></category><category><![CDATA[app]]></category><category><![CDATA[design]]></category><dc:creator><![CDATA[Casper User]]></dc:creator><pubDate>Sat, 03 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;일단 목표는 간단한 할 일 앱(to do list)을 만드는 것이다. 할 일들(to-do)이 List형태로 주욱 보여지는 그것 말이다. 그런데 그것만으로는 너무 지나치게 간단할 뿐더러 차별성이 전혀 없으므로 핵심적인 차별점 하나를 부여하기로 했다. &lt;/p&gt;
+&lt;p&gt;그것은 &quot;일을 나눈다(혹은 쪼갠다)&quot;는 개념이다. 마인드맵에서 약간 힌트를 얻은 개념인데, 어떤 특정한 업무나 작업을 일단 하려고 하면, 보다 세부적인 일들로 쪼개지는 경우가 다반사이다. 그럴 때 마치 마인드맵처럼 계속 쪼개가면서 세부적인 일을 처리해나가고, 그렇게 처리된 일들로 상위의 일들이 얼마나 완수되는지를 쉽게 추적할 수 있는 시스템이 있으면 좋겠다고 생각했다. &lt;/p&gt;
+&lt;p&gt;이런 개념이 특히 빛을 발하는 것은 쪼갠 일을 다른 사람에게 delegation을 쉽게 해줄 수 있는 부분일 것이다. 쪼갠 일을 다른 사람에게 할당하면, 그 사람의 to-do list에 그 일이 뚜둔!하고 나타나는 것이다. 그럼 그 사람은 그 일을 검토하며 다시 쪼개나가다가 필요한 부분은 다시 다른 사람에게 주고.. &lt;/p&gt;
+&lt;p&gt;실제 구현에서도 linked list의 구조로 작업들을 물리게 해놓고, 각 작업의 생성자와 소유주를 분리하여 할당할 수 있게 해놓으면, 구조면에서 어렵지 않으면서도 꽤나 유용한 애플리케이션이 될 것 같다. &lt;/p&gt;
+&lt;p&gt;이러한 아이디어를 간단하게 그림으로 옮기면 다음과 같다. &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/chop_image-257135c623e6001b175612a68d3458c5-e9623.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 500px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 104.2%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAVABQDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAIBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB6MTUZSl12Eg//8QAFxABAQEBAAAAAAAAAAAAAAAAAQARIP/aAAgBAQABBQJehttv/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFBABAAAAAAAAAAAAAAAAAAAAMP/aAAgBAQAGPwIf/8QAGRAAAgMBAAAAAAAAAAAAAAAAAAEQESEg/9oACAEBAAE/IbGXsLSsE+I//9oADAMBAAIAAwAAABAn54P/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAZEAADAQEBAAAAAAAAAAAAAAAAAREhMXH/2gAIAQEAAT8QQzX0xQnS2Y/QwHwqFH//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;ideation 그림&quot;
+        title=&quot;&quot;
+        src=&quot;/static/chop_image-257135c623e6001b175612a68d3458c5-e9623.jpg&quot;
+        srcset=&quot;/static/chop_image-257135c623e6001b175612a68d3458c5-cd97f.jpg 178w,
+/static/chop_image-257135c623e6001b175612a68d3458c5-b63e5.jpg 355w,
+/static/chop_image-257135c623e6001b175612a68d3458c5-e9623.jpg 500w&quot;
+        sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;아주 심플하게 iOS식으로 표현하면 테이블로 작업 리스트를 나열하고, 각 작업별로 일을 쪼개거나 기존에 쪼개져있는 일을 확인하고 (기존에 쪼개져 있는 일을 확인할 때는 원래의 리스트가 왼쪽으로 슬라이드되고 우측에서 새로운 리스트가 나옴) 새로운 일을 추가할 때는 하단에 있는 + 표시를 누르는 식이다. 직관적이지 않은가!&lt;/p&gt;
+&lt;p&gt;일단은 이와 같은 구조로 개인 사용자 수준에서 동작하는 앱을 만드는 것이 목표이다. 다른 사용자를 추가하는 부분은 일단 배제하되, 서버와 데이터는 연동되게 만들 것이다. (연동규칙을 정하는 것도 골치아픈 문제일 것 같긴 하다)&lt;/p&gt;
+&lt;p&gt;앱의 이름은 Chop으로 정했다. 차후에 앱스토어나 플레이스토어에 올릴 때는 물론 Chop: easy but powerful to-do app 식으로 부제를 달 것인데 그 내용은 천천히 생각해보기로 하자. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Starting a Tech Blog]]></title><description><![CDATA[앞으로 1년 정도의 시간 동안 web에 대한 기술 스택을 쌓고자 한다. 현재 기술 발전이 흘러가는 방향을 볼 때, 간단한 스타트업의 앱이나 서비스 정도는 web을 중심으로 하여 개발되고, 이것을 react native 등의 framework…]]></description><link>https://thegreatkingbear.github.io/starting-a-tech-blog</link><guid isPermaLink="false">https://thegreatkingbear.github.io/starting-a-tech-blog</guid><category><![CDATA[web]]></category><category><![CDATA[tech]]></category><dc:creator><![CDATA[Casper User]]></dc:creator><pubDate>Thu, 01 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;앞으로 1년 정도의 시간 동안 web에 대한 기술 스택을 쌓고자 한다. 현재 기술 발전이 흘러가는 방향을 볼 때, 간단한 스타트업의 앱이나 서비스 정도는 web을 중심으로 하여 개발되고, 이것을 react native 등의 framework를 이용해 안드로이드와 아이폰에 동시에 서비스하는 형태가 주류로 자리잡을 가능성이 크다고 본다. &lt;/p&gt;
 &lt;p&gt;따라서 현재 내게 가장 부족하고 아쉽다고 생각되는 web기반 기술들과, javascript fluency를 키우기 위해 프로젝트를 진행하려고 한다. 특히 백엔드 쪽으로는 serverless를 생각하고 있다. 진행할 프로젝트는 기획적인 측면에서 애매함이 적은 방향으로 고려중이다. 예를 들면 to-do list 같은 앱인데, 새로운 아이디어를 중심으로 앱을 기획하면, 기획-재기획의 무한 루프(쉽게 말해 자꾸 엎는다는 얘기...)를 돌다가 쉽게 지쳐버리는 일이 많기에 이를 방지하기 위함이다. 할 일 앱이라면 아주 심플하고 분명한 형태부터 시작할 수 있고, 그것을 개선해나가면서 데이터의 구조라든가 architecture 부분까지 고민할 수 있는 기회라고 생각하기 때문이다. &lt;/p&gt;
 &lt;p&gt;블로그를 만든다는 글에 뜬금없는 스택과 기획 얘기부터 나왔는데, 저런 앱을 1년 정도의 시간을 들여 고민하고 만들며, 거기서 배운 기술적인 부분들과 함께 퍼블리시와 마케팅에 이르기까지 가감없이 한 번 기록을 해보면 어떨까 하는 생각에 이 블로그를 시작하게 된 것이다. 지나고보면 항상 느끼는 건데, 1년 이라는 시간이 꽤 길고, 따라서 쓰기에 따라 많은 것을 이루거나 배울 수 있는 시간임에도, 실제 그러기는 정말 어렵다. 1년 이라는 시간이면 위에서 언급한 정도를 충분히 할 수 있는 시간이기에 지금 목표를 세워보는 것이다. 아무도 읽지 않는 블로그라도 혹시라도 누군가가 언제라도 읽을 수 있는 위험성(?)이 항상 나를 겨눌 것이기에 나를 위한 채찍으로는 적당하지 않을까라는 생각이다. &lt;/p&gt;
 &lt;p&gt;그럼 기술 블로그는 어떻게 만들까? 이게 아마 이번 글의 중심 내용이 될 듯 한데, 기왕 react를 이번에 공부할 중심 스택으로 정했으므로 react를 기반으로 하면 좋을 것이고, 돈 들이고 싶지 않으므로 github pages에 올릴 수 있는 (혹은 싼 Amazon S3에 올릴 수 있는) static website로 정했다. &lt;/p&gt;
