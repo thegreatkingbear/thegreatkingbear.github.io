@@ -1,7 +1,7 @@
 ---
 title: "Chop App Design"
 date: "2018-11-03"
-cover: "/images/big-apartment-with-lots-of-rooms.jpeg"
+cover: "/images/coffee-on-the-table.jpeg"
 category: "dev"
 author: "theGreatKingBear"
 tags: 
